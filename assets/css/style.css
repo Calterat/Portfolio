@@ -61,6 +61,16 @@ header nav span a {
 
 /* Hero Banner */
 
+.banner {
+    background-image: url("./assets/images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 200px;
+}
+
 /* Main Section */
 
 /* - About Me */
