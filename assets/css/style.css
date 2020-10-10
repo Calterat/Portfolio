@@ -1,8 +1,63 @@
 /* page defaults */
 
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --1st-color: darkslategray;
+    --2nd-color: powderblue;
+    --3rd-color: lightsteelblue;
+}
+
 /* Header */
 
+header {
+    background-color: var(--1st-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 20px 0;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px 10px 100px;
+    background-color: var(--2nd-color);
+}
+
+header h1 {
+    color: var(--1st-color);
+
+}
+
+/* - Header Img */
+
+header div img {
+    max-height: 50px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
 /* - Nav Bar */
+
+header nav span {
+    margin-right: 15px;
+}
+
+header nav span a {
+    color: var(--2nd-color);
+    text-decoration: none;
+    border-bottom: 3px solid var(--2nd-color);
+    padding: 5px 10px;
+
+}
 
 /* Hero Banner */
 
