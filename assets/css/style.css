@@ -62,13 +62,20 @@ header nav span a {
 /* Hero Banner */
 
 .banner {
-    background-image: url("./assets/images/banner.jpg");
+    background-image: url("../images/banner.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 200px;
+    height: 300px;
+}
+
+.banner h2 {
+    padding: 5px;
+    margin: 15px 100px;
+    background-color: var(--2nd-color);
+    font-weight: bold;
 }
 
 /* Main Section */
