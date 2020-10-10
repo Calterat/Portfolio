@@ -80,8 +80,99 @@ header nav span a {
 
 /* Main Section */
 
+main {
+    padding: 20px 100px;
+    background-color: var(--3rd-color);
+}
+
+article {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.article-header {
+    width: 10%;
+    border-right: 5px solid var(--1st-color);
+    text-align: right;
+    padding: 20px;
+    font-size: 27px;
+    align-content: flex-start;
+    color: var(--1st-color);
+}
+
+article .content {
+    width: 90%;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
 /* - About Me */
+
+.content.article-about {
+    flex-direction: column;
+}
+ .article-about p {
+    margin-bottom: 10px;
+    color: var(--1st-color);
+ }
 
 /* - Portfolio */
 
+.article-portfolio {
+    min-height: 400px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* -- Portfolio Grid */
+
+.grid-item {
+    background-color: var(--2nd-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 3px solid var(--2nd-color);
+    text-align: center;
+}
+
+.grid-item span {
+    padding: 5px;
+    background-color: var(--2nd-color);
+    width: 20%;
+}
+
+.item1 {
+    background-image: url("../images/run-buddy.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
 /* - Contact Me */
+
+.article-contact {
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.article-contact span a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: var(--1st-color);
+    border-bottom: 3px solid var(--1st-color);
+}
