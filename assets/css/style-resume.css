@@ -1,0 +1,26 @@
+.article-header {
+    font-size: 1.75vw;
+}
+
+.content {
+    flex-direction: column;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content.article-contact {
+    flex-direction: row;
+}
+
+@media screen and (max-width: 884px) {
+
+    .content.article-contact {
+        flex-direction: column;
+    }
+
+    .article-header {
+        font-size: 4vw;
+    }
+}

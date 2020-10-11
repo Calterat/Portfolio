@@ -83,9 +83,12 @@ header nav span a {
 
 /* Main Section */
 
+body {
+    background-color: var(--3rd-color);
+}
+
 main {
     padding: 15px 100px 15px 50px;
-    background-color: var(--3rd-color);
 }
 
 article {
