@@ -147,13 +147,18 @@ article {
     height: 500px;
 }
 
-/* -- Portfolio Grid */
+/* -- Portfolio Grid and Hover Effects */
 
 .grid-item {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     border: 3px solid var(--2nd-color);
+    opacity: 0.8;
+}
+
+.grid-item:hover {
+    opacity: 1;
 }
 
 .grid-container a {
@@ -213,8 +218,9 @@ article {
     background-image: url("../images/met-museum.png");
     background-position: center;
     background-size: cover;
-
 }
+
+
 
 /* - Contact Me */
 
@@ -324,6 +330,10 @@ article {
     .grid-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .grid-item {
+        opacity: 1;
     }
 
     #run-buddy {
