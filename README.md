@@ -40,7 +40,9 @@
 
 ![](./design-layout.png)
 
-Here's a quick screenshot of my portfolio page
+Here's a quick screenshot of my portfolio page.
+
+This is my Portfolio and Resume. This displays my abilities with HTML and CSS front-end development. The page displays my other projects as well with links to visit them.
 
 
 ### Built With
@@ -136,17 +138,13 @@ Thank you for taking the time to check out my Portfolio!
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=flat-square
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=flat-square
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=flat-square
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=flat-square
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=flat-square
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
-[product-screenshot]: images/screenshot.png
+<!--
+
+[GitHub Repository]: https://github.com/Calterat/Portfolio
+[Portfolio URL]: https://calterat.github.io/Portfolio/
+[issues-url]: https://github.com/Calterat/Portfolio/issues
+[license-url]: https://github.com/Calterat/Portfolio/blob/master/LICENSE.txt
+[linkedin-url]: https://www.linkedin.com/in/julian-gillis-5ba18b20/
+![product-screenshot](./design-layout.png)
+
+-->
