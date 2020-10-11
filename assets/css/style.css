@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 :root {
@@ -34,7 +35,7 @@ header div {
 
 header h1 {
     color: var(--1st-color);
-
+    font-size: 3vw;
 }
 
 /* - Header Img */
@@ -56,6 +57,7 @@ header nav span a {
     text-decoration: none;
     border-bottom: 3px solid var(--2nd-color);
     padding: 5px 10px;
+    font-size: 2vw;
 
 }
 
@@ -68,20 +70,21 @@ header nav span a {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 300px;
+    height: 200px;
+    padding: 15px 100px;
 }
 
 .banner h2 {
     padding: 5px;
-    margin: 15px 100px;
     background-color: var(--2nd-color);
     font-weight: bold;
+    color: var(--1st-color);
 }
 
 /* Main Section */
 
 main {
-    padding: 20px 100px;
+    padding: 15px 100px 15px 50px;
     background-color: var(--3rd-color);
 }
 
@@ -91,40 +94,44 @@ article {
     align-items: center;
 }
 
-.article-header {
-    width: 10%;
-    border-right: 5px solid var(--1st-color);
-    text-align: right;
-    padding: 20px;
-    font-size: 27px;
-    align-content: flex-start;
-    color: var(--1st-color);
+.article-work {
+    height: 500px;
 }
 
-article .content {
-    width: 90%;
+.article-header {
+    width: 15%;
+    text-align: right;
+    padding: 20px;
+    font-size: 2.5vw;
+    color: var(--1st-color);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .content {
+    width: 85%;
     display: flex;
-    padding: 20px;
+    padding-left: 20px;
+    border-left: 5px solid var(--1st-color);
 }
 
 /* - About Me */
 
-.content.article-about {
+.article-about {
     flex-direction: column;
+    height: 100%;
 }
  .article-about p {
     margin-bottom: 10px;
     color: var(--1st-color);
  }
 
-/* - Portfolio */
+ #about-me {
+     height: 200px;
+ }
 
-.article-portfolio {
-    min-height: 400px;
-}
+/* - Work */
 
 .grid-container {
     display: grid;
@@ -135,26 +142,41 @@ article .content {
     width: 100%;
 }
 
+#work {
+    height: 500px;
+}
+
 /* -- Portfolio Grid */
 
 .grid-item {
-    background-color: var(--2nd-color);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     border: 3px solid var(--2nd-color);
-    text-align: center;
-}
-
-.grid-item span {
-    padding: 5px;
-    background-color: var(--2nd-color);
-    width: 30%;
 }
 
 .grid-container a {
     text-decoration: none;
+    padding-bottom: 20px;
+}
 
+.project {
+    background-color: var(--2nd-color);
+    text-align: left;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.project-title {
+    font-size: calc(8px + 0.4vw);
+    font-weight: bold;
+}
+
+.project-type {
+    font-size: calc(6px + 0.3vw);
 }
 
 .item1 {
@@ -195,9 +217,16 @@ article .content {
 
 /* - Contact Me */
 
+#contact-me {
+    height: 100px;
+}
+
 .article-contact {
     justify-content: space-between;
     padding-left: 50px;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
 }
 
 .article-contact span a {
@@ -205,4 +234,10 @@ article .content {
     padding: 5px 15px;
     color: var(--1st-color);
     border-bottom: 3px solid var(--1st-color);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 885px) {
+    
 }
