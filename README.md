@@ -123,6 +123,8 @@ Project Link: [https://github.com/Calterat/Portfolio](https://github.com/Caltera
 <!-- Additional Notes -->
 ## Additional Notes
 
+My Facebook page is currently not public, but check the link later! It will be back up soon!
+
 Thank you for taking the time to check out my Portfolio!
 
 
