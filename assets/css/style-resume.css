@@ -15,12 +15,6 @@
     flex-direction: row;
 }
 
-.content p:hover {
-    background-color: var(--2nd-color);
-}
-
-
-
 @media screen and (max-width: 884px) {
 
     .content.article-contact {
