@@ -192,7 +192,7 @@ article {
     font-size: calc(6px + 0.3vw);
 }
 
-.item1 {
+.item6 {
     background-image: url("../images/run-buddy.png");
     background-position: center;
     background-size: cover;
@@ -226,7 +226,11 @@ article {
     background-position: center;
     background-size: cover;
 }
-
+ .item1 {
+     background-image: url("../images/pass-gen-mockup.png");
+     background-position: center;
+     background-size: cover;
+ }
 
 
 /* - Contact Me */
@@ -343,7 +347,7 @@ article {
         opacity: 1;
     }
 
-    #run-buddy {
+    #pass-gen {
         height: 100px;
     }
 
