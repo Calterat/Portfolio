@@ -321,7 +321,7 @@ article {
     }
 
     .article-header h3 {
-        margin-right: 8px;
+        padding: 0 4px 0 4px;
     }
 
     .content {
