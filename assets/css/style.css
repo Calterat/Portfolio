@@ -284,6 +284,10 @@ article {
         margin: 5px;
     }
 
+    header nav span {
+    margin-right: 0;
+    }
+
     header nav span a {
         font-size: 3vw;
     }
