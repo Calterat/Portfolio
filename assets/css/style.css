@@ -241,7 +241,7 @@ article {
 
 .article-contact {
     justify-content: space-between;
-/*    padding-left: 50px;  */
+/*    padding-left: 50px;  THIS CODE caused an alignmetn issue */
     align-items: center;
     height: 100%;
     flex-wrap: wrap;
