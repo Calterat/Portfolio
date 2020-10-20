@@ -210,7 +210,7 @@ article {
 }
 
 .item3 {
-    background-image: url("../images/media-election.png");
+    background-image: url("../images/pass-gen-mockup.png");
     background-position: center;
     background-size: cover;
 }
@@ -227,7 +227,7 @@ article {
     background-size: cover;
 }
  .item1 {
-     background-image: url("../images/pass-gen-mockup.png");
+     background-image: url("../images/taskinator.png");
      background-position: center;
      background-size: cover;
  }
@@ -351,7 +351,7 @@ article {
         opacity: 1;
     }
 
-    #pass-gen {
+    #taskinator {
         height: 100px;
     }
 
