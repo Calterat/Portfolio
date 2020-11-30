@@ -193,41 +193,42 @@ article {
 }
 
 .item1 {
-    background-image: url("../images/run-buddy.png");
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    background-image: url("../images/dendrite.png");
     background-position: center;
     background-size: cover;
 }
 
-.item1 {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-}
-
 .item2 {
-    background-image: url("../images/brew-groove.png");
+    background-image: url("../images/weather-dashboard.png");
     background-position: center;
     background-size: cover;
 }
 
 .item3 {
-    background-image: url("../images/media-election.png");
+    background-image: url("../images/work-day-scheduler.png");
     background-position: center;
     background-size: cover;
 }
 
 .item4 {
-    background-image: url("../images/horiseon-refactored.png");
+    background-image: url("../images/git-it-done.png");
     background-position: center;
     background-size: cover;
 }
 
 .item5 {
-    background-image: url("../images/met-museum.png");
+    background-image: url("../images/taskmaster-pro.png");
     background-position: center;
     background-size: cover;
 }
 
-
+.item6 {
+    background-image: url("../images/taskinator.png");
+    background-position: center;
+    background-size: cover;
+}
 
 /* - Contact Me */
 
@@ -237,7 +238,7 @@ article {
 
 .article-contact {
     justify-content: space-between;
-    padding-left: 50px;
+/*    padding-left: 50px;  THIS CODE caused an alignmetn issue */
     align-items: center;
     height: 100%;
     flex-wrap: wrap;
@@ -280,6 +281,10 @@ article {
         margin: 5px;
     }
 
+    header nav span {
+    margin-right: 0;
+    }
+
     header nav span a {
         font-size: 3vw;
     }
@@ -313,7 +318,7 @@ article {
     }
 
     .article-header h3 {
-        margin-right: 8px;
+        padding: 0 4px 0 4px;
     }
 
     .content {
@@ -343,7 +348,7 @@ article {
         opacity: 1;
     }
 
-    #run-buddy {
+    #dendrite {
         height: 100px;
     }
 
