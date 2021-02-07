@@ -195,37 +195,37 @@ article {
 .item1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url("../images/dendrite.png");
+    background-image: url("../images/artfuldodger.png");
     background-position: center;
     background-size: cover;
 }
 
 .item2 {
-    background-image: url("../images/weather-dashboard.png");
+    background-image: url("../images/dendrite.png");
     background-position: center;
     background-size: cover;
 }
 
 .item3 {
-    background-image: url("../images/work-day-scheduler.png");
+    background-image: url("../images/weather-dashboard.png");
     background-position: center;
     background-size: cover;
 }
 
 .item4 {
-    background-image: url("../images/git-it-done.png");
+    background-image: url("../images/work-day-scheduler.png");
     background-position: center;
     background-size: cover;
 }
 
 .item5 {
-    background-image: url("../images/taskmaster-pro.png");
+    background-image: url("../images/git-it-done.png");
     background-position: center;
     background-size: cover;
 }
 
 .item6 {
-    background-image: url("../images/taskinator.png");
+    background-image: url("../images/taskmaster-pro.png");
     background-position: center;
     background-size: cover;
 }
@@ -348,7 +348,7 @@ article {
         opacity: 1;
     }
 
-    #dendrite {
+    #artfuldodger {
         height: 100px;
     }
 
